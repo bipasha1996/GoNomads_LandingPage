@@ -37,13 +37,14 @@
 }
 
 .btn {
-  padding: 0.75rem 1.5rem;
+  padding: 0.75rem 1.2rem;
   outline: none;
   border: none;
   font-size: 1rem;
   color: var(--primary-color);
   background-color: var(--secondary-color);
   cursor: pointer;
+  display:flex;
 }
 
 img {
@@ -260,6 +261,7 @@ nav {
   background-color: transparent;
   border: 1px solid var(--white);
   cursor: pointer;
+  display: flex;
 }
 
 .blogs__container {
